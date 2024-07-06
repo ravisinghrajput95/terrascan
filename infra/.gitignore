@@ -1,0 +1,44 @@
+# Terraform specific files
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# Crash log files
+crash.log
+
+# Ignore override files as they are usually used to override resources locally
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore SSH keys
+*.pem
+*.key
+
+# Ignore secrets and environment variables
+*.env
+
+# Ignore any specific configurations for your editor (example: VS Code)
+.vscode/
+
+# Ignore IDE specific files (example: IntelliJ IDEA)
+.idea/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python virtual environment (if you use one)
+venv/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore any files related to sensitive information
+secrets.tfvars
+
+# Ignore the infra directory if you don't want to track Terraform plan and configuration files (optional)
+# infra/
